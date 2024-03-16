@@ -1,5 +1,5 @@
 """
- python3 main.py --data_path ${dataset} --exp_name exp --axis_guidance --edge_guidance --hidden2_dim 2 --label_types supportive,opposing --learning_rate 0.2 --label_sampling 1,1 --device 0 --seed 0
+ python3 main.py --data_path ${dataset} --exp_name exp --axis_guidance --edge_guidance --hidden2_dim 2 --label_types supportive,opposing --learning_rate 0.2 --label_sampling 0.05,0.05 --device 0 --seed 0
 """
 import os.path
 import random
