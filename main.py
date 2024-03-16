@@ -1,5 +1,5 @@
 """
- python3 main.py --data_path /data/shared/incas/phase_2a/Competition/artifact/toolkit_2a_less_filter/investigate/defense_selected_labels.parquet --exp_name defence_10 --axis_guidance --edge_guidance --hidden2_dim 2 --label_types supportive,opposing --learning_rate 0.2 --label_sampling 1,1 --device 0 --seed 0
+ python3 main.py --data_path ${dataset} --exp_name exp --axis_guidance --edge_guidance --hidden2_dim 2 --label_types supportive,opposing --learning_rate 0.2 --label_sampling 1,1 --device 0 --seed 0
 """
 import os.path
 import random
